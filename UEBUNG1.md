@@ -16,7 +16,7 @@ Das Einlesen und daraufhin Parsen von verschiedenen Dateiformaten ohne großen A
 Die Sprache soll einen dynamischen Austausch von Dateien mit anderen Nutzern ermöglichen und einen Workflow wie in typischen Versionsverwaltungen ermöglichen.
 
 ## Qualitätsziele
-Die Sprache soll sich qualitativ durch lesbar und 'sprechenden' Code auszeichnen, d.h. der User der grundlegende Programmierkenntnisse in Sprachen wie Java/C++ etc besitzt sollte keine Probleme haben den Code beim lesen direkt zu verstehen.
+Die Sprache soll sich qualitativ durch lesbar und 'sprechenden' Code auszeichnen, d.h. der User der grundlegende Programmierkenntnisse in Sprachen wie Java/C# etc. besitzt sollte keine Probleme haben den Code beim lesen direkt zu verstehen.
 Es werden Sonderzeichen/Symbole zur Strukturierung genutzt und Blöcke zu erkennen, weiterhin ist der Code expressiv, also wenig Zeilen verursachen viel Wirkung.
 
 ### Robustheit:
@@ -29,6 +29,21 @@ Konzeptuell besteht die Sprache aus wenigen Blöcken mit spezieller Anwendung. A
 ### Mindestens ein weiteres eigenes Ziel:
 Beschreiben Sie mindestens ein weiteres Ziel, das Ihre Programmiersprache verfolgt.
 Beispiele: Effizienz, Verständlichkeit, Ausdrucksstärke, Anpassbarkeit, Korrektheit, Überprüfbarkeit, ...
+Effizienz:
+####
+
+Verständlichkeit
+###
+
+Anpassbarkeit
+
+Korrektheit
+####
+
+
+Überprüfbarkeit: 
+Durch die dynamische Typisierung der Attribute/Parameter kann erst während der "run-time" geprüft werden, ob ein Typfehler entsteht
+Jedoch lässt sich die Syntax im (debugging)complie Vorgang prüfen, ob die Syntax den grundlegenden Regeln der Sprache entspricht. 
 
 Primitive Type: Int, Double, Boolean, String
 Zusammengesetzte Typen: Liste, Files, Date/Tag, Event/Task, Woche, Monat, TimeWindow als allgemeines Modellierungsmodell, User
