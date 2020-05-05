@@ -23,6 +23,6 @@ TimeWindow sose2[] := new TimeWindow()[5];
 for (int i = 0; i < 5; i++)
 {
 // Hochzählen der Sommersemester
-   TimeWindow.Start.Date = TimeWindow.Start.Date + i;
-   TimeWindow.End.Date   =  TimeWindow.End.Date + i;
+   sose2[i].Start.Date = sose.Start.Date + i;
+   sose2[i].End.Date   =  sose.End.Date + i;
 }
