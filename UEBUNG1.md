@@ -1,0 +1,34 @@
+Name der Programmiersprache:
+
+Domäne:
+
+Gruppenmitglieder: Steffen Anhäuser, Jan-Erik Menzel, Melina Morch, Lukas Hofmann
+
+=========================================================================
+
+## Beschreibung der Domäne
+Beschreiben Sie die Domäne, für die Sie Ihre Programmiersprache entwickeln möchten.
+Objektorientierte Domäne
+
+Welche Probleme soll sie in der Domäne lösen?
+Studiumsplanung im speziellen und eine robustes Framework zur Implementierung von Daten, Uhrzeit, Übungen, 'Events
+Das Einlesen/Parsen von verschiedenen Dateiformaten ohne großen Aufwand 
+Dynamischer Austausch von Dingen mit anderen Nutzern
+"Versionsverwaltung"
+
+## Qualitätsziele
+Lesbarkeit von Code, 'sprechender' Code, benutzt Sonderzeichen/Symbole zur Strukturierung, expressiver Code == wenig Zeilen mit viel Wirkung, 
+### Robustheit:
+Welche Bedeutung hat Robustheit im Kontext Ihrer Sprache?
+Wie ist Robustheit hier definiert und inwiefern ist Ihre Sprache robust, das heißt also wie werden unerwartete Aktionen und Zustände behandelt?
+Defaultcase ist mächtig, dynamische Typisierung, enges Problemfeld führt zu präzisen Eingaben
+### Modularität:
+Welche Aspekte Ihrer Sprache sind modular?
+Konzeptuell besteht die Sprache aus wenigen Blöcken mit spezieller Anwendung. Aus diesen setzt sich alles andere zusammen. 
+### Mindestens ein weiteres eigenes Ziel:
+Beschreiben Sie mindestens ein weiteres Ziel, das Ihre Programmiersprache verfolgt.
+Beispiele: Effizienz, Verständlichkeit, Ausdrucksstärke, Anpassbarkeit, Korrektheit, Überprüfbarkeit, ...
+
+Primitive Type: Int, Double, Boolean, String
+Zusammengesetzte Typen: Liste, Files, Date/Tag, Event/Task, Woche, Monat, TimeWindow als allgemeines Modellierungsmodell, User
+Kontrollfluss: git-like
