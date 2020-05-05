@@ -1,4 +1,4 @@
-Name der Programmiersprache:
+Name der Programmiersprache: ASCL very simple calendar language
 
 Domäne: Objekt-Orientiert
 
@@ -29,17 +29,6 @@ Konzeptuell besteht die Sprache aus wenigen Blöcken mit spezieller Anwendung. A
 ### Mindestens ein weiteres eigenes Ziel:
 Beschreiben Sie mindestens ein weiteres Ziel, das Ihre Programmiersprache verfolgt.
 Beispiele: Effizienz, Verständlichkeit, Ausdrucksstärke, Anpassbarkeit, Korrektheit, Überprüfbarkeit, ...
-Effizienz:
-####
-
-Verständlichkeit
-###
-
-Anpassbarkeit
-
-Korrektheit
-####
-
 
 Überprüfbarkeit: 
 Durch die dynamische Typisierung der Attribute/Parameter kann erst während der "run-time" geprüft werden, ob ein Typfehler entsteht
