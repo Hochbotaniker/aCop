@@ -9,4 +9,11 @@
                         weekly=true)
 
 ## Bedingungen
-
+if (sose.Start.Date = "20-04-2020") {
+    System.out.println("Stimmt");
+} elseIf (sose.Start.Date < "20-04-2020") {
+    System.out.println("Sie sind in einem einem FS vor SoSe2020");
+} elseIf (sose.Start.Date > "20-04-2020") {
+} else {
+    System.out.println("Sie sind in einem einem FS nach SoSe2020");
+}
