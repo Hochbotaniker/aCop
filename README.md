@@ -1,5 +1,4 @@
-# uni-stuff
-private repo Uni-Zeug
+# Advanced Concepts of Programming
 
-TO-DO - ACOP:
-finsih uebung 1 , prepare untyped system/arithmetic expressions
+TO-DO 
+prepare untyped system/arithmetic expressions
