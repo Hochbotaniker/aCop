@@ -23,4 +23,5 @@ if t1,t2,t3,t4,tp,t0 <img src="https://render.githubusercontent.com/render/math?
  
  S0 =  <img src="https://render.githubusercontent.com/render/math?math=\emptyset ">
  
- Si+1 = {succ t1,pred t1, board t1, move t1, turn t1 | t1 <img src="https://render.githubusercontent.com/render/math?math=\in "> T}
+ Si+1 = {0,1,2,3} <img src="https://render.githubusercontent.com/render/math?math=\cup "> {succ t1,pred t1, move t1, turn t1 | t1 <img src="https://render.githubusercontent.com/render/math?math=\in "> Si} <img src="https://render.githubusercontent.com/render/math?math=\cup "> {board t1,t2,t3,t4,tp,t0 | t1,t2,t3,t4,tp,t0 <img src="https://render.githubusercontent.com/render/math?math=\in "> Si}
+
